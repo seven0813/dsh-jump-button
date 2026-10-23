@@ -1,0 +1,5 @@
+# Bundle patch: one Host row. The Client half is loaded by the Web shell from
+# exports["./client"]; all behavior lives in lib/client.js.
+- insert:
+    - id: jump-buttons
+      name: dsh-jump-buttons

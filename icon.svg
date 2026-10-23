@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Jump Buttons">
+  <rect x="4" y="4" width="56" height="56" rx="16" fill="#2b6cb0"/>
+  <g fill="none" stroke="#ffffff" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M23 30V17"/><path d="M17.5 22.5 23 17l5.5 5.5"/>
+    <path d="M41 34v13"/><path d="M35.5 41.5 41 47l5.5-5.5"/>
+  </g>
+</svg>
