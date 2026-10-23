@@ -11,12 +11,22 @@ DSH Web 聊天的两个浮动跳转按钮：
 
 ## 安装
 
+从 npm 安装：
+
+```bash
+dsh plugin --profile web add dsh-jump-buttons
+```
+
+`dsh plugin add` 会自动把带 `dsh.bundle` 的包加入 profile 的 `dsh.profile.bundles`，无需手工改配置。
+
+从源码目录安装（用于本地开发）：
+
 ```bash
 git clone https://github.com/seven0813/dsh-jump-button.git
 dsh plugin --profile web add link:/absolute/path/to/dsh-jump-button
 ```
 
-本地目录以 `link:` 方式安装后，bundle 会进入 profile 的 `dsh.profile.bundles`；新的 bundle 通常即时生效，若页面未出现按钮，刷新一次页面即可（少数版本需要重启 `dsh web`）。
+本地目录以 `link:` 方式安装后同样是即时生效；若页面未出现按钮，刷新一次页面即可（少数版本需要重启 `dsh web`）。
 
 也可以从 **Plugins** 页面启用/停用。
 

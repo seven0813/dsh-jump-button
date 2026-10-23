@@ -1,9 +1,30 @@
 {
   "name": "dsh-jump-buttons",
   "version": "1.0.0",
-  "private": true,
   "description": "Floating jump buttons for the DSH Web conversation: back to the current question, or to the live end.",
   "type": "module",
+  "license": "MIT",
+  "author": "seven0813",
+  "homepage": "https://github.com/seven0813/dsh-jump-button#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seven0813/dsh-jump-button.git"
+  },
+  "bugs": {
+    "url": "https://github.com/seven0813/dsh-jump-button/issues"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "conversation",
+    "scroll",
+    "jump",
+    "chat"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
   "exports": {
     ".": "./lib/index.js",
     "./client": "./lib/client.js",
@@ -16,7 +37,8 @@
     "cordis.patch.yml",
     "locale/*.json",
     "icon.svg",
-    "README.md"
+    "README.md",
+    "LICENSE"
   ],
   "dsh": {
     "manifestVersion": 1,
@@ -30,5 +52,8 @@
         "@deepseek-ai/dsh-client-ui-conversation"
       ]
     }
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
