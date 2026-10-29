@@ -1,6 +1,6 @@
 {
   "meta": {
     "title": "Jump Buttons",
-    "description": "Floating ↑/↓ buttons on the right edge of the conversation: jump to the start of your latest question, or back to the live end."
+    "description": "Three floating buttons on the right edge of the conversation: jump to the start or end of the turn you are reading, or straight to the latest output."
   }
 }

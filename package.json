@@ -1,7 +1,7 @@
 {
   "name": "dsh-jump-buttons",
-  "version": "1.0.0",
-  "description": "Floating jump buttons for the DSH Web conversation: back to the current question, or to the live end.",
+  "version": "1.0.1",
+  "description": "Three floating buttons for the DSH Web conversation: jump within the turn you are reading, or straight to the latest output.",
   "type": "module",
   "license": "MIT",
   "author": "seven0813",
